@@ -1,0 +1,182 @@
+/* GENERAL */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+  :root {
+    --main-color: #f15b43;
+    --sec-color: #65c9bb;
+    --light-text: #777777;
+    --dark-color: #263b5c;
+    --black-color: #0000;
+    --white-color: #ffff;
+    --bg-section: #faeded;
+    --dark-gray: #4c4c4c;
+  }
+  .btn {
+    padding: 20px;
+    border-radius: 0%;
+    font-size: 1.1rem;
+  }
+  /* Header */
+  
+  .header {
+    position: relative;
+    background-image: url("../assets/imgs/h1_hero1.jpg");
+    background-position: center;
+  
+    height: 150vh;
+  }
+  .navbar {
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .navbar-nav .nav-item {
+    padding: 15px;
+    font-size: 1rem;
+  }
+  .navbar-nav li a {
+    color: var(--white-color) !important;
+    gap: 10px;
+    transition: all 300ms ease;
+  }
+  
+  .navbar-nav li a:hover {
+    color: var(--sec-color) !important;
+  }
+  
+  .nav-btn {
+    background-color: var(--main-color);
+    color: var(--white-color);
+  }
+  .nav-btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+  }
+  .navbar-toggler {
+    background-color: var(--main-color);
+  }
+  .hero {
+    position: absolute;
+    top: 30%;
+  
+  }
+  .hero-content h1,
+  p {
+    color: var(--white-color);
+    padding: 5px;
+  }
+  .hero-content h1 {
+    font-size: 3.7rem;
+    font-weight: 600;
+  }
+  .hero-content p {
+    font-size: 1.3rem;
+  }
+  .hero-btn {
+    background-color: var(--sec-color);
+    color: var(--white-color);
+  }
+  .hero-btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+  }
+  /* HERO MEDIA QURIES */
+  
+  /* FIRST SECTION */
+  .program-section {
+    background-color: var(--bg-section);
+  }
+  
+  .span-title {
+    color: var(--sec-color);
+    font-size: 1.1rem;
+  }
+  .program-content h2 {
+    color: var(--dark-color);
+    font-size: 2.5rem;
+    padding: 15px 0;
+  }
+  .program-content p {
+    color: var(--light-text);
+    font-size: 1.1rem;
+  }
+  .dark-btn {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .dark-btn:hover {
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+  }
+  .light-btn {
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  /*ARG3Y HENA TANYY A3MLY TRANSFORM*/
+  .light-btn:hover {
+    color: var(--white-color);
+    background-color: var(--main-color);
+  }
+  /* SECTION 2 */
+  
+  /* SECTION 3 */
+  
+  .card-body,
+  .card-footer {
+    background-color: #f0ecec;
+  }
+  .card-title {
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: var(--dark-color);
+    transition: all 300ms ease;
+  }
+  .card-text {
+    color: var(--light-text);
+    font-size: 1.2rem;
+  }
+  .text-money span {
+    color: var(--sec-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .text-money p {
+    color: var(--dark-color);
+  }
+  .card-btn {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 300ms ease;
+  }
+  .card:hover .card-btn {
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+  }
+  .card:hover .card-title {
+    color: var(--main-color);
+  }
+  
+  .sec-bg{
+    background-color: var(--main-color);
+    color: var(--white-color);
+  }
