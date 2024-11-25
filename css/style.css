@@ -15,6 +15,7 @@
     --white-color: #ffff;
     --bg-section: #faeded;
     --dark-gray: #4c4c4c;
+    --btn-color:rgb(221, 221, 221);
   }
   .btn {
     padding: 20px;
@@ -33,9 +34,11 @@
   .navbar {
     background-color: transparent !important;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top:0px;
+    left: 0px;
+    right: 0px;
+
+
   }
   .navbar-nav .nav-item {
     padding: 15px;
@@ -177,6 +180,71 @@
   }
   
   .sec-bg{
-    background-color: var(--main-color);
+    background-image: url("../assets/imgs/section-bg1.jpg");
+    position: sticky;
+    
     color: var(--white-color);
   }
+
+
+  .blog h2 {
+    color: var(--dark-color);
+    font-size: 2.5rem;
+    padding: 15px 0;
+  }
+  .blog button{
+    padding: 20px;
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+    color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    transition: all 300ms ease;
+  }
+  .blog button:hover{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: 1px solid var(--main-color);
+  }
+  
+
+.read-more-btn{
+  font-size: 1.2rem;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.footer{
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+.fa-brands{
+  border:1px solid transparent;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.fa-facebook{
+  background-color: rgb(62, 71, 190);
+}
+.fa-linkedin-in{
+  background-color: rgb(60, 158, 223);
+}
+.fa-instagram{
+  background-color: rgb(56, 112, 150);
+}
+.fa-youtube{
+  background-color: rgb(214, 35, 35);
+}
+.footer a{
+  color: var(--white-color);
+  text-decoration: none;
+  padding:10px 0;
+  font-size: 1.1rem;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+
+/*MEDIA QURIES*/
